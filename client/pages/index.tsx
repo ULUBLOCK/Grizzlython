@@ -37,34 +37,10 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <div className="border-[2px] rounded-2xl bg-inherit p-[1.25rem]">
           <div className="flex flex-col justify-center p-4 bg-inherit gap-4">
-            <div className={styles.iconContainer}>
-              <a
-                href="https://builderz.build"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <Image
-                  src="/logo.png"
-                  height={90}
-                  width={90}
-                  style={{
-                    objectFit: "contain",
-                  }}
-                  alt="budo"
-                />
-              </a>
-              <Image
-                width={75}
-                height={75}
-                src="/sol.png"
-                className={styles.icon}
-                alt="sol"
-              />
-            </div>
+            
             <h1 className={styles.h1}>Hello everyone & Welcome to Budo Platfrom 👋</h1>
             <p className={styles.explain}>
-            University Commmunites Funding using Solana Blockchain{" "}<br/>
+            University Commmunites Funding using <b>Solana</b> Blockchain<br/>
             Welcome to Our University Communities Funding platform! We are excited to bring together 
             companies and Communities and Communities in support of eductaion, innovation, and events. 
             With the power of Solana Blockchain technology, we are able to facilitate secure and transparent
@@ -74,7 +50,7 @@ const Home: NextPage = () => {
             for our students and communities.</b>
               
             </p>
-            <div className="flex flex-col md:flex-row gap-4 justify-around  items-center py-8">
+            <div className="flex flex-col md:flex-row gap-3 justify-around  items-center py-8">
               <button onClick={notify} className="btn glow-on-hover">
                 Notify!
               </button>
@@ -92,7 +68,7 @@ const Home: NextPage = () => {
         <div className="mt-20 flex flex-col justify-center items-center gap-4">
           <h1 className={styles.h1}>How it works</h1>
           <div className="flex flex-col md:flex-row gap-4 justify-around  items-center py-8">
-            <div className="flex md:flex-row flex-col justify-center items-center gap-4">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-4">
               <div className="rounded-[10px] border-[2px] p-3">                
                 <p className={styles.explain}>
                 Our platform allows both companies and communities to support university programs, initiatives, and events through secure and transparent transactions using Solana's blockchain technology. <br/><br/>
@@ -101,8 +77,6 @@ const Home: NextPage = () => {
                 All contributions are directly deposited into the university's account and can be used to cover costs associated with organizing and hosting the events, or support the development of the programs and initiatives. <br/><br/>
                 Contributors can track the progress of their supported programs, initiatives, and events, and receive updates from the university community. <br/><br/>
                 By supporting university programs, initiatives, and events, both companies and communities can help build stronger relationships with the university community and support the development of future leaders and innovators.
-
-
                 </p>
                 </div>
                 <img

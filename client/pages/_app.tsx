@@ -9,7 +9,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
 import { useState, useMemo, useEffect } from "react";
 import { useMediaQuery } from "@mui/material";
-import ContextProvider from "../contexts/ContextProvider";
+import ContextProvider from "../context/ContextProvider";
 require("@solana/wallet-adapter-react-ui/styles.css");
 import { ToastContainer } from 'react-toastify';
 import themes from "../components/themes";

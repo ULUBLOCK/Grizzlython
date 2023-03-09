@@ -17,7 +17,8 @@ import PeopleIcon from '@mui/icons-material/People';
 
 type Anchor = "top" | "left" | "bottom" | "right";
 
-export default function SwipeableTemporaryDrawer() {
+export default function SideBar() {
+
   const [state, setState] = React.useState({
     top: false,
     left: false,
@@ -73,7 +74,7 @@ export default function SwipeableTemporaryDrawer() {
             </ListItemButton>
           </ListItem>
         ))}
-         {["All Communities"].map((text, index) => (
+         {["All Communities events"].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton href="/communities">
               <ListItemIcon>

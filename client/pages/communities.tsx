@@ -4,6 +4,8 @@ const communities = () => {
   return (
     <div>
       all communities
+
+      create community button
     </div>
   )
 }

@@ -36,7 +36,7 @@ const Home: NextPage = () => {
       </Head>
       <div className={styles.container}>
         <div className="border-[2px] rounded-2xl bg-inherit p-[1.25rem]">
-          <div className="flex flex-col justify-center p-4 bg-inherit gap-4">
+          <div className="flex flex-col justify-center px-4 bg-inherit gap-4">
             
             <h1 className={styles.h1}>Hello everyone & Welcome to Budo Platfrom 👋</h1>
             <p className={styles.explain}>
@@ -67,7 +67,7 @@ const Home: NextPage = () => {
 
         <div className="mt-20 flex flex-col justify-center items-center gap-4">
           <h1 className={styles.h1}>How it works</h1>
-          <div className="flex flex-col md:flex-row gap-4 justify-around  items-center py-8">
+          <div className="flex flex-col md:flex-row gap-4 justify-around  items-center ">
             <div className="flex flex-col md:flex-row justify-center items-center gap-4">
               <div className="rounded-[10px] border-[2px] p-3">                
                 <p className={styles.explain}>

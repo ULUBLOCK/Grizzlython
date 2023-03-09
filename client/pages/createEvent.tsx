@@ -35,7 +35,7 @@ const CreateEvent = () => {
       <form onSubmit={handleSubmit} className="w-full mt-[65px] flex flex-col gap-[30px]">
         <div className="flex flex-wrap gap-[40px]">
           <FormField 
-            labelName="Your Name *"
+            labelName="The name of the Community Event Manager *"
             placeholder="John Doe"
             inputType="text"
             value={form.name}
@@ -44,7 +44,7 @@ const CreateEvent = () => {
           />
 
           <FormField 
-            labelName="Campaign Title *"
+            labelName="Community's Event Title *"
             placeholder="Write a title"
             inputType="text"
             value={form.title}
@@ -54,8 +54,8 @@ const CreateEvent = () => {
         </div>
 
         <FormField 
-          labelName="Story *"
-          placeholder="Write your story"
+          labelName="Description of the Community Event *"
+          placeholder="write a description"
           isTextArea
           value={form.description}
           handleChange={(e: any) => handleFormFieldChange('description', e)}
@@ -64,15 +64,15 @@ const CreateEvent = () => {
 
         <div className="flex flex-wrap gap-[40px]">
           <FormField 
-            labelName="Goal *"
-            placeholder="ETH 0.50"
+            labelName="The target amount *"
+            placeholder="0.10 Sol"
             inputType="text"
             value={form.target}
             handleChange={(e: any) => handleFormFieldChange('target', e)}
             isTextArea={undefined}
           />
           <FormField 
-            labelName="End Date *"
+            labelName="Funding deadline *"
             placeholder="End Date"
             inputType="date"
             value={form.deadline}
@@ -82,8 +82,8 @@ const CreateEvent = () => {
         </div>
 
         <FormField 
-            labelName="Campaign image *"
-            placeholder="Place image URL of your campaign"
+            labelName="Community's event image *"
+            placeholder="Place image URL of your Community's event "
             inputType="url"
             value={form.image}
             handleChange={(e: any) => handleFormFieldChange('image', e)}

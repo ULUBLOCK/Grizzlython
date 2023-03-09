@@ -1,7 +1,4 @@
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom';
- 
-import { useStateContext } from '../context/context';
 import { CustomButton, FormField, Loader } from '../components';
 
 const CreateEvent = () => {
@@ -67,11 +64,6 @@ const CreateEvent = () => {
           inputType={undefined}          
           />
 
-        <div className="w-full flex justify-start items-center p-4 bg-[#8c6dfd] h-[120px] rounded-[10px]">
-          <img src="" alt="money" className="w-[40px] h-[40px] object-contain"/>
-          <h4 className="font-epilogue font-bold text-[25px] text-white ml-[20px]">You will get 100% of the raised amount</h4>
-        </div>
-
         <div className="flex flex-wrap gap-[40px]">
           <FormField 
             labelName="Goal *"
@@ -104,7 +96,7 @@ const CreateEvent = () => {
             <CustomButton 
             btnType="submit"
             title="Submit new campaign"
-            styles="bg-[#1dc071]" 
+            styles="bg-[#6699CC]" 
             handleClick={undefined}            
           />
           </div>

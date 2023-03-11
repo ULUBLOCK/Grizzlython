@@ -1,11 +1,12 @@
 import React from 'react'
 
-const communities = () => {
+const companies = () => {
   return (
-    <div>
-      all communities
+    <div className='mb-10'>
+      <h1 >All companies </h1>
+
     </div>
   )
 }
 
-export default communities
+export default companies

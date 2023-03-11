@@ -32,7 +32,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Budo</title>
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" type="image/png" href="images/logo.png" />
       </Head>
       <div className={styles.container}>
         <div className="border-[2px] rounded-2xl bg-inherit p-[1.25rem]">

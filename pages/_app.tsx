@@ -14,6 +14,8 @@ require("@solana/wallet-adapter-react-ui/styles.css");
 import { ToastContainer } from 'react-toastify';
 import themes from "../components/themes";
 
+const desiredNetwork = "devnet";
+
 function MyApp({ Component, pageProps }: AppProps) {
   // Get OS-level preference for dark mode
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
@@ -30,7 +32,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   };
 
   return (
+
     <ThemeProvider theme={theme} >
+
       <ContextProvider>
         <CssBaseline enableColorScheme />
         <WalletModalProvider>
@@ -38,7 +42,8 @@ function MyApp({ Component, pageProps }: AppProps) {
           <Component {...pageProps} />
           <Footer/>
         </WalletModalProvider>
-      </ContextProvider>
+      </ContextProvider> 
+
       {/* Change Notification settings here */}
       <ToastContainer
         position="bottom-right"
@@ -53,6 +58,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         theme={theme.palette.mode === "dark" ? "light" : "dark"}
       />
     </ThemeProvider>
+
   );
 }
 

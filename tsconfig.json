@@ -18,6 +18,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "context/context.jsx", "components/CustomButton.jsx", "components/Loader.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "context/context.jsx", "src/components/CustomButton.jsx", "src/components/Loader.tsx"],
   "exclude": ["node_modules"]
 }

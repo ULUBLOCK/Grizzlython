@@ -31,8 +31,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Budo</title>
-        <link rel="icon" type="image/png" href="images/logo.png" />
+        <title>UNITRUST</title>
+        <link rel="icon" type="image/png" href="logo.png" />
       </Head>
       <div className={styles.container}>
         <div className="border-[2px] rounded-2xl bg-inherit p-[1.25rem]">

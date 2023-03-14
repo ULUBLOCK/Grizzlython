@@ -32,7 +32,7 @@ const Footer = () => {
             </a>
         </div>
         <p className="mt-8 text-base leading-6 text-center">
-            All Rights Reserved by <span className="font-bold">ULUBLOCK</span> Build by <span className="hover:text-green font-bold cursor-pointer hover:text-gray-500">@BUDO</span>  | Copyright © {new Date().getFullYear()} 
+            All Rights Reserved by <span className="font-bold">UNITRUST</span> Build by <span className="hover:text-green font-bold cursor-pointer hover:text-gray-500">@uni-trust</span>  | Copyright © {new Date().getFullYear()} 
 
         </p>
     </div>

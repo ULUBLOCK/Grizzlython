@@ -14,3 +14,11 @@ The platform also includes a social networking feature that allows universities,
 
 Overall, the university community funding platform provides a powerful tool for supporting education, innovation, and events at universities. By leveraging the power of Solana blockchain, the platform provides a fast, secure, and transparent way to connect universities, companies, and donors in support of these important initiatives. <br>
 
+https://ulublock.github.io/Grizzlython/
+
+# 💻 We Used:
+![Rust](https://img.shields.io/badge/-rust-orange)
+![Solana](https://img.shields.io/badge/-solana-purple)
+![Anchor](https://img.shields.io/badge/-anchor-blue)
+![TS](https://img.shields.io/badge/-TypeScript-blue)
+![Next](https://img.shields.io/badge/-Next.js-grey)

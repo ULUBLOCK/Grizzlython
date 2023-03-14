@@ -1,5 +1,8 @@
 import React, { useContext } from 'react';
+import { ThirdwebSDK } from "@thirdweb-dev/sdk/solana";
 
+const privateKey = "..."; // Your private key
+const sdk = ThirdwebSDK.fromPrivateKey("devnet", privateKey);
 
 export const StateContextProvider = ({ children }) => {
   const { contract } = useContract('xxxxxxxxxx');

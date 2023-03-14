@@ -13,6 +13,7 @@ import ContextProvider from "../context/ContextProvider";
 require("@solana/wallet-adapter-react-ui/styles.css");
 import { ToastContainer } from 'react-toastify';
 import themes from "../components/themes";
+import {ThirdwebProvider } from '@thirdweb-dev/react';
 
 const desiredNetwork = "devnet";
 
@@ -34,7 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
 
     <ThemeProvider theme={theme} >
-
+    <ThirdwebProvider network={desiredNetwork}>
       <ContextProvider>
         <CssBaseline enableColorScheme />
         <WalletModalProvider>
@@ -43,6 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <Footer/>
         </WalletModalProvider>
       </ContextProvider> 
+    </ThirdwebProvider>
 
       {/* Change Notification settings here */}
       <ToastContainer

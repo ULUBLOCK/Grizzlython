@@ -32,13 +32,13 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>UNITRUST</title>
-        <link rel="icon" type="image/png" href="logo.png" />
+        <link rel="icon" type="image/png" href="/logo.png" />
       </Head>
       <div className={styles.container}>
         <div className="border-[2px] rounded-2xl bg-inherit p-[1.25rem]">
           <div className="flex flex-col justify-center px-4 bg-inherit gap-4">
             
-            <h1 className={styles.h1}>Hello everyone & Welcome to Budo Platfrom 👋</h1>
+            <h1 className={styles.h1}>Hello everyone & Welcome to UniTrust Platfrom 👋</h1>
             <p className={styles.explain}>
             University Commmunites Funding using <b>Solana</b> Blockchain<br/>
             Welcome to Our University Communities Funding platform! We are excited to bring together 
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
                 style={{
                   objectFit: "contain",
                 }}
-                alt="budo"
+                alt="unitrust"
               />
             </div>
           </div>

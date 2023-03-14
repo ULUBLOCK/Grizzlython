@@ -9,10 +9,9 @@ const communities = () => {
 
   //const { address, contract, getCampaigns } = useStateContext();
 
-  const address="xxxxxxxxx"
-  const contract="xxxxxxxxx"
+  const address="GLhFKnVrTTXonugNVQjiznu2GSX3MvPaNkFxWLmSugLn"
+  const contract=""
   
-
   const fetchCampaigns = async () => {
     setIsLoading(true);
    // const data = await getCampaigns();

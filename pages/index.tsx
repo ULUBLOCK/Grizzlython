@@ -34,6 +34,7 @@ const Home: NextPage = () => {
         <title>UNITRUST</title>
         <link rel="icon" type="image/png" href="/logo.png" />
       </Head>
+      
       <div className={styles.container}>
         <div className="border-[2px] rounded-2xl bg-inherit p-[1.25rem]">
           <div className="flex flex-col justify-center px-4 bg-inherit gap-4">

@@ -1,5 +1,7 @@
 # Grizzlython_project
 
+<img src="https://github.com/Grizzly">
+
 UNITRUST platform is a decentralized, blockchain-based platform that connects university's communities and companies to support education, innovation, and events. The platform is built on Solana blockchain, which provides fast, secure, and cost-effective transaction processing. <br>
 
 The platform allows university's communities to create fundraising campaigns for their initiatives and events. Companies can browse these campaigns and choose to donate funds to specific projects that align with their values and mission. Donors can also browse campaigns and donate funds directly to support university initiatives. <br>
